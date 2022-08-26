@@ -9,14 +9,13 @@ body{height: 5000px;}
     border-bottom: 1px solid #e2e4e0; 
     box-sizing: border-box;  
 }
-.header .header-wrap{width: 1200px; height: 100%; margin: 0 auto; position: relative;}
-.header .logo{text-align: center;}
+.header .header-wrap{width: 1200px; height: 100%; margin: 0 auto; display: flex; justify-content: center; position: relative;}
 .header .logo img{margin-top: 58px;}
 
 #m-nav{display: none;}
 #m-nav + label{cursor: pointer;}
-label{position: absolute; right: 50px;}
-label .line{background-color: #000; width: 35px; height: 3px;margin-bottom: 7.5px;}
+label{position: absolute; left: 90%; top: 60px;}
+label .line{background-color: #000; width: 35px; height: 3px;margin-bottom: 7.5px; }
 
 .m-box{
     display: none;
