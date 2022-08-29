@@ -2,6 +2,10 @@
 *{margin: 0; padding: 0;}
 a{text-decoration: none; color: #000;}
 ul{list-style: none;}
+html,body {
+        position: relative;
+        height: 100%;
+}
 body{height: 5000px;}
 .header{
     width: 100%; height: 147px;
@@ -61,3 +65,17 @@ label .line{background-color: #000; width: 35px; height: 3px;margin-bottom: 7.5p
 .content .menu .item-new .text ul li.on{font-weight: bold; font-size: 28px;}
 
 .content .menu .item-journal img{width: 595px; height: 707px; display: none;}
+
+.swiper {
+    width: 886px;
+    height: 1108px;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.swiper .swiper-slide img{width: 886px; height: 1108px;}
